@@ -7,7 +7,6 @@ The Smart Clinic Management System follows a three-tier architecture consisting 
 ## 2. Numbered Flow
 
 1. **User Interface:** Admins and doctors access their dashboards through Thymeleaf pages, while other clients use REST API endpoints.
-
 2. **Controller Layer:** Incoming requests are routed to the appropriate MVC controller or REST controller.
 
 3. **Service Layer:** The controller calls the service layer to apply business rules, validate input, and process requests.
